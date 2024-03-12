@@ -15,3 +15,6 @@
 
 ### 반복문
 - [반복문](https://velog.io/@hokoro/Java-Challenge-3-0vrsdzkp)
+
+### 1차원 배열
+- [1차원 배열](https://velog.io/@hokoro/Java-Challenge-4)
