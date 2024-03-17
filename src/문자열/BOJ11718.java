@@ -1,7 +1,8 @@
+package 문자열;
+
 import java.util.Scanner;
 
-
-public class Main {
+public class BOJ11718 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -9,6 +10,5 @@ public class Main {
             String s = scanner.nextLine();
             System.out.println(s);
         }
-
     }
 }
