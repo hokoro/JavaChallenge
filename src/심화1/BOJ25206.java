@@ -1,7 +1,8 @@
+package 심화1;
 
 import java.util.Scanner;
 
-public class Main {
+public class BOJ25206 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
