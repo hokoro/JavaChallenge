@@ -1,13 +1,14 @@
+package 배열2;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class BOJ2563 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int [][]arrs = new int[100][100];
 
-        for(int[]i:arrs) Arrays.fill(i , 0);
+        for(int[]i:arrs)Arrays.fill(i , 0);
 
         int count = scanner.nextInt();
         int x,y;

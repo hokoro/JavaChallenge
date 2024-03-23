@@ -24,3 +24,6 @@
 
 ### 심화1
 - [심화1](https://velog.io/@hokoro/Java-Challenge-6)
+
+### 2차원 배열
+- [2차원 배열](https://velog.io/@hokoro/Java-Challenge-7)
