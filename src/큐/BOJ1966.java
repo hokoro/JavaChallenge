@@ -1,6 +1,10 @@
-import java.util.*;
+package 큐;
 
-public class Main {
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class BOJ1966 {
     public static void main(String[] args) {
         Deque<Integer> deque;
         Deque<Integer> dequeIdx;

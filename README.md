@@ -27,3 +27,6 @@
 
 ### 2차원 배열
 - [2차원 배열](https://velog.io/@hokoro/Java-Challenge-7)
+
+### 큐 
+- [큐](https://velog.io/@hokoro/Java-Challenge-8)
