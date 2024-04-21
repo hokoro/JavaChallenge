@@ -1,7 +1,9 @@
+package 스택;
+
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class BOJ1874 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StringBuilder sb = new StringBuilder(); // 정답을 담을 StringBuilder
