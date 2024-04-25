@@ -33,3 +33,6 @@
 
 ### 스택 
 - [스택](https://velog.io/@hokoro/Java-Challenge-9)
+
+### 그리드 알고리즘 
+- [그리드](https://velog.io/@hokoro/Java-Challenge-10)
