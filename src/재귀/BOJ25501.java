@@ -1,6 +1,8 @@
+package 재귀;
+
 import java.util.Scanner;
 
-public class Main {
+public class BOJ25501 {
     static StringBuilder sb = new StringBuilder();
     static int answer;
     static int count;
