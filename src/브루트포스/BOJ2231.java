@@ -1,31 +1,37 @@
 package 브루트포스;
 
-import java.io.*;
 import java.util.*;
-
+import java.io.*;
 public class BOJ2231 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(br.readLine());
-        int answer = 0;
-        for(int i = 1 ; i <= n; i++){
-            int len = String.valueOf(i).length();
-            int num = i;
-            int sum = i;
-            for(int j = 0; j < len; j++){
-                sum += (num / (int)Math.pow(10 , len-j));
-                num = num % (int)Math.pow(10 , len-j);
+        String str_N = br.readLine();
+
+        int len = str_N.length();
+
+        int n = Integer.parseInt(str_N);
+        int result = 0;
+
+        for(int i  = (n - (n * 9)); i<n; i++){
+            int number = i;
+            int sum = 0;
+
+            while(number != 0){
+                sum += (number % 10);
+                number /= 10;
             }
-            if(sum == n){
-                answer = i;
+            ;
+            if(sum + i == n){
+                result = i;
                 break;
             }
+
         }
 
-        bw.write(String.valueOf(answer));
+        bw.write(String.valueOf(result));
         bw.flush();
         bw.close();
     }
